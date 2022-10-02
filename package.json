@@ -3,6 +3,7 @@
   "displayName": "relativiser",
   "description": "Returns the relative path of a file from another one selected on VS Code's UI",
   "version": "0.0.1",
+  "publisher": "bmbferreira",
   "engines": {
     "vscode": "^1.71.0"
   },
