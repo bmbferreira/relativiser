@@ -10,20 +10,20 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:relativiser.helloWorld"
+    "onCommand:relativiser.getPath"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "relativiser.helloWorld",
-        "title": "Hello World"
+        "command": "relativiser.getPath",
+        "title": "Get relative path"
       }
     ],
     "menus": {
       "explorer/context": [
         {
-          "command": "relativiser.helloWorld"
+          "command": "relativiser.getPath"
         }
       ]
     }
