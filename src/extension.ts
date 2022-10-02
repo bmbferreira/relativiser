@@ -1,6 +1,5 @@
 import * as vscode from 'vscode';
 import * as path from 'path';
-import clipboard from 'clipboardy';
 
 export function activate(context: vscode.ExtensionContext) {
 
